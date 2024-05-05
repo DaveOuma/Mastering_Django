@@ -1,0 +1,4 @@
+#Ignore the virtualenv when pushed to github
+
+venv/
+
