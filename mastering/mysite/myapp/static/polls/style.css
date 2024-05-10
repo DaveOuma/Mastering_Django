@@ -1,0 +1,53 @@
+/* style.css */
+
+body {
+    background: white url("../images/background.jpg") no-repeat;
+
+    /* background-color: aqua; */
+
+}
+
+li a {
+    color: rgb(77, 157, 77);
+}
+
+h1 {
+    color: rgb(15, 10, 3);
+}
+
+fieldset {
+    border: 1px solid #4c1515;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style form legend */
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style radio buttons and labels */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label {
+    margin-right: 15px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
